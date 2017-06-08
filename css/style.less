@@ -1,0 +1,114 @@
+@import url(m_style.css);
+
+.full(@w, @h, @bg) {
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.container,
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box(@dir:row) {
+    display: flex;
+    flex-direction: @dir;
+}
+.f1 {
+    flex:1;
+}
+.cen {
+    align-items: center;
+}
+.container{
+    .box(column);
+        header{
+            .full(100%,0.88rem,#fa3b4d);
+            .box;
+            .cen;
+            img{
+                .full(0.35rem,auto,#fa3b4d);
+                margin-left: 0.2rem;
+                margin-top: 0.24rem;
+            }
+            h4{
+                font-size: 0.3rem;
+                .f1;
+                text-align: center;
+                color: #fcffff;
+                font-weight: none;
+            }
+            
+        }
+        section{
+            .tou{
+                .full(6.7rem,0.8rem,none);
+                .cen;
+                margin-top: 0.7rem;
+                margin-left: 0.4rem;
+                p{
+                    font-size:0.28rem;
+                    color:#9e9e9e;
+                }
+                span{
+                    color:#272727;
+                }
+            }
+            .hao{
+                .full(6.7rem,0.47rem,none);
+                padding-top: 0.33rem;
+                margin-left: 0.4rem;
+                font-size:0.26rem;
+                margin-top: 1.03rem;
+                color:#b4b4b4;
+                input{
+                    .full(5.3rem,0.46rem,none);
+                    border:none;
+                    padding-left: 0.25rem;
+                }
+            }
+            .pwd{
+                .full(6.7rem,0.47rem,none);
+                padding-top: 0.33rem;
+                margin-left: 0.4rem;
+                font-size:0.28rem;
+                input{
+                    .full(5.3rem,0.46rem,none);
+                    border:none;
+                    padding-left: 0.25rem;
+                }
+            }
+            .pwd2{
+                .full(6.7rem,0.47rem,none);
+                padding-top: 0.33rem;
+                margin-left: 0.4rem;
+                font-size:0.28rem;
+                input{
+                    .full(5.3rem,0.46rem,none);
+                    border:none;
+                    padding-left: 0.25rem;
+                }
+            }
+            .last{
+                .full(670,auto,none);
+                .text{
+                    
+                    margin-left: 0.4rem;
+                    .full(6.7rem,0.9rem,#f9384b);
+                    margin-top: 2.12rem;
+                    border: 1px solid #c0c0c0;
+                    border-radius: 0.07rem;
+                    font-size: 0.3rem;
+                   text-align: center;
+                   color: #f2e0d2;
+                    
+                }
+            }
+        }
+        footer{
+             
+        }
+    
+}

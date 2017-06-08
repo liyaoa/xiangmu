@@ -1,0 +1,219 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 1.26rem;
+  background: #fa4556;
+}
+header a img {
+  width: 0.44rem;
+  height: 0.39rem;
+  background: none;
+  margin-left: 0.4rem;
+  margin-top: -0.1rem;
+}
+header p {
+  display: inline;
+  margin-left: 2rem;
+  line-height: 1.3rem;
+  font-size: 0.4rem;
+  color: #ffffff;
+}
+section {
+  width: 100%;
+  height: 6.62rem;
+  background: #ffffff;
+  -webkit-box-flex: 1;
+}
+section .zi {
+  width: 100%;
+  height: 1.24rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e1e1e1;
+}
+section .zi a {
+  line-height: 1.3rem;
+  margin-left: 0.4rem;
+}
+.zi1 {
+  width: 100%;
+  height: 0.98rem;
+  background: none;
+  -webkit-box-flex: 1;
+}
+.zi1 img {
+  width: 0.98rem;
+  height: 0.98rem;
+  background: none;
+  margin-left: 6rem;
+  margin-top: -1.7rem;
+}
+.zi2 {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+  margin-top: -0.98rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.zi2 a {
+  line-height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.zi2 span {
+  -webkit-box-flex: 1;
+  margin-left: 5.4rem;
+  color: #999999;
+}
+.zi3 {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+  margin-top: -0.01rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.zi3 a {
+  line-height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.zi3 span {
+  -webkit-box-flex: 1;
+  margin-left: 5.7rem;
+  color: #999999;
+}
+.zi4 {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+  margin-top: 0.01rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.zi4 a {
+  line-height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.zi4 span {
+  -webkit-box-flex: 1;
+  margin-left: 5.7rem;
+  color: #999999;
+}
+.zi5 {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+  margin-top: 0.01rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.zi5 a {
+  line-height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.zi5 span {
+  -webkit-box-flex: 1;
+  margin-left: 5.4rem;
+  color: #999999;
+}
+.zi6 {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+  margin-top: 0.01rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.zi6 a {
+  line-height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.zi6 span {
+  -webkit-box-flex: 1;
+  margin-left: 3.9rem;
+  color: #999999;
+}
+.zi7 {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+  margin-top: 0.01rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.zi7 a {
+  line-height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.zi7 span {
+  -webkit-box-flex: 1;
+  margin-left: 4rem;
+  color: #999999;
+}
+.zi8 {
+  width: 100%;
+  height: 0.88rem;
+  background: #ffffff;
+  margin-top: 0.01rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+.zi8 a {
+  line-height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.zi8 span {
+  -webkit-box-flex: 1;
+  margin-left: 4.9rem;
+  color: #999999;
+  font-size: 0.5rem;
+}
+footer {
+  width: 100%;
+  height: 5.43rem;
+  background: #eeeeee;
+}
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999999;
+}
+.zhezhao .commit {
+  width: 4.53rem;
+  height: 2.62rem;
+  background: #ffffff;
+  border-radius: 0.15rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  top: 15%;
+  margin-top: 1.31rem;
+}
+.zhezhao .commit .ka {
+  width: 3.53rem;
+  height: 0.88rem;
+  background: none;
+  border-bottom: 1px solid #efefef;
+  margin-left: 0.5rem;
+}
+.zhezhao .commit .ka a {
+  line-height: 0.8rem;
+}
+.zhezhao .commit .ka1 {
+  width: 3.53rem;
+  height: 0.88rem;
+  background: none;
+  margin-left: 0.5rem;
+}
+.zhezhao .commit .ka1 a {
+  line-height: 0.8rem;
+}

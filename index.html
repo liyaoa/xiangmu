@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+   <script type="text/javascript">
+    	
+   		  (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                  var clientWidth = docEl.clientWidth;
+                  if (!clientWidth) return;
+                  docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+   		
+    </script>
+
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="denglu.html"><img src="img/3-3-1设置·_03.png"/></a>
+			<h4>设置密码</h4>
+		</header>
+		<section>
+			<div class="tou">
+				<p>请设置传传密码，你可以用传传绑定的<span>账号+传传密码</span>登录，比如使用<span>手机号+传传密码</span>登录。</p>
+			</div>
+			<div class="hao">
+				<form action="">
+					传传账号<input type="text" placeholder="wae2555553">
+				</form>
+			</div>
+			<div class="pwd">
+				<form action="">
+					密码<input type="text" placeholder="请填写新密码">
+				</form>
+			</div>
+			<div class="pwd2">
+				<form action="">
+					确认密码<input type="text" placeholder="请再次填写确认">
+				</form>
+			</div>
+			<div class="last">
+				<input type="text"  class="text" value="确定" ;/>
+			</div>
+			
+			
+		</section>
+		<footer>
+		</footer>
+	</div>
+</body>
+</html>
